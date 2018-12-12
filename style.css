@@ -3,6 +3,14 @@ html,body{
     height:100%; 
 }
 
+/*  fixed navbar  */
+#nav-main
+{
+    position: fixed;
+    top:0px;
+    width:100%;
+    z-index: 1;
+}
 img{
     max-width: 100%;
 }
@@ -19,7 +27,10 @@ img{
     font-style: italic;
     font-family: 'Times New Roman';
     font-size: 20px;
+    
 }
+
+/* icon */
 #cover img{
     float: left;
     position: relative;
@@ -37,17 +48,29 @@ h3
    font-family: 'Lato';
    color: black;
 }
+h2,h4{
+    font-size: 30px;
+   
+   font-family: 'Concert One';
+   color: black;
+}
 p{
    font-size: 20px;
    font-family:  'Lora';
    color: black;
 }
+
+/*  footer  */
 footer {
 
-    background: black;
-    color: whitesmoke;
-    height: 50px;
-
+   background: black;
+   
+   height: 50px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    
   }
 .fa {
     padding: 20px;
