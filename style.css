@@ -10,7 +10,9 @@ html,body{
     top:0px;
     width:100%;
     z-index: 1;
+    
 }
+
 img{
     max-width: 100%;
 }
