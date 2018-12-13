@@ -23,26 +23,31 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-   
-    <a class="navbar-brand" href="#">Home</a>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="navbar-brand" href="#">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-brand" href="#">Contact Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-brand " href="#">Products</a>
-        </li>
-      </ul>
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" href="#profile" role="tab" data-toggle="tab">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#buzz" role="tab" data-toggle="tab">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#references" role="tab" data-toggle="tab">Contact Us</a>
+      </li>
+    </ul>
+ 
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane fade in active" id="Home">...</div>
+      <div role="tabpanel" class="tab-pane fade" id="About">bbb</div>
+      <div role="tabpanel" class="tab-pane fade" id="Contact Us">ccc</div>
+    </div>&emsp;
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
-    </div>
+    
+   
+    
   </nav>
 
   <!--Hero unit-->
@@ -218,11 +223,12 @@
 <!--Footer-->
 
 <footer>
-  <i class="glyphicon glyphicon-envelope"></i>
+  
   <a href="#" class="fa fa-facebook"></a>
   <a href="#" class="fa fa-twitter"></a>
   <a href="#" class="fa fa-google"></a>
   <a href="#" class="fa fa-linkedin"></a>
+  <a href="#" class="glyphicon glyphicon-envelope"></a>
 </footer>
 
 </html>
