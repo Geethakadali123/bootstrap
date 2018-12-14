@@ -19,7 +19,7 @@ img{
 /* cover */
 #cover
 {
-    background: #222 url(img/5.jpg) center center no-repeat;
+    background: url(../img/5.jpg) center center no-repeat;
     background-size: cover;
     color:black;
     height: 100%;
